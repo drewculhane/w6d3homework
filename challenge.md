@@ -20,17 +20,34 @@ db.burgers.find({})
 ### Prompts
 
 **Prompt:** What is the command to start the `mongo` server?
-
+Catalina 
+```
+mongo 
+```
 **Prompt:** What is the command to connect to the `mongo` shell?
+```
+mongo 
+```
 
 **Prompt:** What is the command for listing all `mongo` databases?
-
+```
+show dbs 
+```
 **Prompt:** What command would you use to create a database called `burgers`?
+```
+use burgers
+```
 
 **Prompt:** What command would you use to add the collection `burger` to your
 `burgers` database?
-
+```
+use burgers
+db.burger.insert()
+```
 **Prompt:** What is the command for listing all collections in a database?
+```
+show collections 
+```
 
 ## Inserting
 
